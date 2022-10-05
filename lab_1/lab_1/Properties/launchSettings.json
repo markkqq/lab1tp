@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "lab_1": {
-      "commandName": "Project",
-      "commandLineArgs": "1.txt"
-    }
-  }
-}
