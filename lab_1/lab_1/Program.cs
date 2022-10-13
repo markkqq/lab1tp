@@ -11,9 +11,9 @@ namespace lab_1
         {
             if (args.Length > 0)
             {
-                /*Menu.LoadTariffs(args[0]);
-                Menu.ShowTariffs();*/
-                Station.RunStation();
+                Station station = new Station();
+                station.LoadFuels(args[0]);
+                station.RunStation();
             }
             else
             {

@@ -7,16 +7,14 @@ namespace lab_1
 {
     class Station
     {
-        private static Dictionary<Fuel,double> _fuels = new Dictionary<Fuel, double>();
-        public static Dictionary<Fuel,double> GetFuels
+        private Dictionary<Fuel,double> _fuels = new Dictionary<Fuel, double>();
+        public Dictionary<Fuel,double> Fuels
         {
-            get { return Station._fuels; }
+            get { return this._fuels; }
+            set { this._fuels = value; }
         }
-        public static void AddFuel(Fuel fuel)
-        {
-            _fuels.Add(fuel,100);
-        }
-        public static void RunStation()
+        
+        public void RunStation()
         {
             bool processing = true;
             while (processing)
@@ -24,7 +22,7 @@ namespace lab_1
                 Customer customer = new Customer();
                 customer.CreateCustomer();
                 string order = Console.ReadLine();
-                foreach (KeyValuePair<Fuel,double> fuel in Station.GetFuels)
+                foreach (KeyValuePair<Fuel,double> fuel in _fuels)
                 {
                     if (order == fuel.Key.ToString())
                     {
@@ -36,7 +34,7 @@ namespace lab_1
                             {
                                 case ConsoleKey.D1:
                                     {
-                                        //SpecialPour(fuel,customer);
+                                        SpecialPour(fuel,customer);
                                         break;
                                     }
                                 case ConsoleKey.D2:
@@ -63,8 +61,37 @@ namespace lab_1
                         }
                     }
                 }
-                Menu.ShowTariffs();
+                
             }
+        }
+        public void LoadFuels(string path)
+        {
+            Dictionary<Fuel, double> fuels = new Dictionary<Fuel, double>();
+            StreamReader sr = new StreamReader(path);
+            var file = File.ReadAllText(path);
+            while (file != null)
+            {
+                try
+                {
+                    string name = sr.ReadLine();
+                    double price = double.Parse(sr.ReadLine());
+                    if (price < 0)
+                    {
+                        break;
+                    }
+                    else
+                    {
+                        Fuel fuel = new Fuel(name, price);
+                        fuels.Add(fuel, 100);
+                    }
+                }
+                catch
+                {
+                    break;
+                }
+                file = File.ReadAllText(path);
+            }
+            this.Fuels = fuels;
         }
         private bool CheckVolume(Fuel fuel, int volume)
         {

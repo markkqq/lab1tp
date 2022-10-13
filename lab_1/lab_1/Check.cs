@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace lab_1
 {
-    class Check
+    class CheckPrinting
     {
 
         public void ShowCheck(string path)
@@ -15,13 +15,7 @@ namespace lab_1
             string s = File.ReadAllText(path);
             Console.WriteLine(s);
         }
-        public void PrintCheck(GasolinePayment payment)
-        {
-            string s = string.Format("В {0} Водитель приобрел следующее топливо: {1}, Купил {2} Литров данного типа топлива. К оплате {3}", DateTime.Now, payment.Name, _volume.ToString(), (_volume * _fuel.Price).ToString());
-            
-            //string path = Directory.GetCurrentDirectory();
-            //File.AppendAllText(path, s);
-        }
+        
 
     }
 }

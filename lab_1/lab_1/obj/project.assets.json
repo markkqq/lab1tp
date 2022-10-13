@@ -2679,23 +2679,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Андрей\\.nuget\\packages\\": {},
+    "C:\\Users\\DeminMS\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Андрей\\Source\\Repos\\lab1tp\\lab_1\\lab_1\\lab_1.csproj",
+      "projectUniqueName": "C:\\Users\\DeminMS\\Desktop\\1\\lab1tp-main\\lab_1\\lab_1\\lab_1.csproj",
       "projectName": "lab_1",
-      "projectPath": "C:\\Users\\Андрей\\Source\\Repos\\lab1tp\\lab_1\\lab_1\\lab_1.csproj",
-      "packagesPath": "C:\\Users\\Андрей\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Андрей\\Source\\Repos\\lab1tp\\lab_1\\lab_1\\obj\\",
+      "projectPath": "C:\\Users\\DeminMS\\Desktop\\1\\lab1tp-main\\lab_1\\lab_1\\lab_1.csproj",
+      "packagesPath": "C:\\Users\\DeminMS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DeminMS\\Desktop\\1\\lab1tp-main\\lab_1\\lab_1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Андрей\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DeminMS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2703,7 +2706,10 @@
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://10.242.53.253:3128": {},
+        "https://10.242.53.253:3128": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {

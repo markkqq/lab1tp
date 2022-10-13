@@ -18,12 +18,6 @@ namespace lab_1
             this._volume = volume;
             
         }
-        public double Pay(Customer customer)
-        {
-
-            return 0;
-        }
-        
         
     }
 }
