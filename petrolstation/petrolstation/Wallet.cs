@@ -2,10 +2,10 @@
 {
     internal class Wallet
     {
-        public int Capacity { get; }
-        public Wallet(int capacity)
+        public int Money { get; }
+        public Wallet(int money)
         {
-            Capacity = capacity;
+            Money = money;
         }
     }
 }

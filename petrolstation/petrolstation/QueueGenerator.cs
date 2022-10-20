@@ -39,10 +39,26 @@ namespace petrolstation
         }
         private Car GenerateCar()
         {
-            Fuel randomFuel = Fuels[r.Next(0, Fuels.Count - 1)];
-            int randomCapacity = r.Next(30, 80);
-            Car car = new Car(randomCapacity,randomFuel);
+            List<Fuel> fuelTypes = CreateFuelPool();
+            
+            int randomCapacity = r.Next(50, 80);
+            int currentvolume = randomCapacity-r.Next(30,40);
+            Car car = new Car(randomCapacity,currentvolume,fuelTypes);
             return car;
+        }
+        private List<Fuel> CreateFuelPool()
+        {
+            List<Fuel> startfuels = Fuels;
+            List<Fuel> endfuels = new List<Fuel>();
+            int amount = r.Next(1, 3);
+            for(int i = 0; i < amount; i++)
+            {
+                int index = r.Next(0, startfuels.Count - 1);
+                Fuel randomFuel = startfuels[index];
+                endfuels.Add(randomFuel);
+                startfuels.RemoveAt(index);
+            }
+            return endfuels;
         }
         
     }
