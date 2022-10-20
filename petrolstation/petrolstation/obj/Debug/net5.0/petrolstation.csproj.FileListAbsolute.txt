@@ -1,0 +1,16 @@
+C:\Users\Андрей\source\repos\petrolstation\petrolstation\obj\Debug\net5.0\petrolstation.csproj.AssemblyReference.cache
+C:\Users\Андрей\source\repos\petrolstation\petrolstation\obj\Debug\net5.0\petrolstation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Андрей\source\repos\petrolstation\petrolstation\obj\Debug\net5.0\petrolstation.AssemblyInfoInputs.cache
+C:\Users\Андрей\source\repos\petrolstation\petrolstation\obj\Debug\net5.0\petrolstation.AssemblyInfo.cs
+C:\Users\Андрей\source\repos\petrolstation\petrolstation\obj\Debug\net5.0\petrolstation.csproj.CoreCompileInputs.cache
+C:\Users\Андрей\source\repos\petrolstation\petrolstation\bin\Debug\net5.0\petrolstation.exe
+C:\Users\Андрей\source\repos\petrolstation\petrolstation\bin\Debug\net5.0\petrolstation.deps.json
+C:\Users\Андрей\source\repos\petrolstation\petrolstation\bin\Debug\net5.0\petrolstation.runtimeconfig.json
+C:\Users\Андрей\source\repos\petrolstation\petrolstation\bin\Debug\net5.0\petrolstation.runtimeconfig.dev.json
+C:\Users\Андрей\source\repos\petrolstation\petrolstation\bin\Debug\net5.0\petrolstation.dll
+C:\Users\Андрей\source\repos\petrolstation\petrolstation\bin\Debug\net5.0\ref\petrolstation.dll
+C:\Users\Андрей\source\repos\petrolstation\petrolstation\bin\Debug\net5.0\petrolstation.pdb
+C:\Users\Андрей\source\repos\petrolstation\petrolstation\obj\Debug\net5.0\petrolstation.dll
+C:\Users\Андрей\source\repos\petrolstation\petrolstation\obj\Debug\net5.0\ref\petrolstation.dll
+C:\Users\Андрей\source\repos\petrolstation\petrolstation\obj\Debug\net5.0\petrolstation.pdb
+C:\Users\Андрей\source\repos\petrolstation\petrolstation\obj\Debug\net5.0\petrolstation.genruntimeconfig.cache

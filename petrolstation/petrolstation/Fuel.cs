@@ -1,0 +1,25 @@
+﻿using System;
+
+namespace petrolstation
+{
+    internal class Fuel
+    {
+        public Fuel(string name, double price)
+        {
+            Name = name
+                ?? throw new ArgumentNullException(nameof(name));
+            if (price >= 0)
+            {
+                Price = price;
+            }
+            else
+            {
+                throw new ArgumentException("Цена топлива за литр должна быть положительной",
+                                            nameof(price));
+            }
+        }
+
+        public string Name { get; }
+        public double Price { get;  }
+    }
+}
