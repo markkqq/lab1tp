@@ -42,7 +42,7 @@ namespace petrolstation
                         {
                             if (facility.AvailableFuels[fuel] > 0)
                             {
-                                char pourType = ui.CollectPourType();
+                                var pourType = ui.CollectPourType();
                                 int volume = CountVolume(facility, fuel, currentClient, pourType);
                                 currentClient.Car.CurrentVolume += volume;
                                 currentClient.Wallet.Money -= Convert.ToInt32(volume * fuel.Price);
@@ -82,25 +82,26 @@ namespace petrolstation
             Clients = generator.GenerateQueue();
             Fuels = generator.Fuels;
         }
-        private int CountVolume(Facility facility, Fuel fuel, Client client, char pourType)
+        private int CountVolume(Facility facility, Fuel fuel, Client client, PourType pourType)
         {
             int pourVolume;
             switch (pourType)
             {
-                case ((char)PourType.DefaultPour):
+                case PourType.DefaultPour:
                     pourVolume = ui.CollectVolume();
                     if (client.Car.CurrentVolume + pourVolume > client.Car.TankCapacity)
                     {
                         pourVolume = client.Car.TankCapacity - client.Car.CurrentVolume;
                     }
                     break;
-                case ((char)PourType.SpecialPour):
+                case PourType.SpecialPour:
                     pourVolume = client.Car.TankCapacity - client.Car.CurrentVolume;
                     break;
                 default:
                     pourVolume = 0;
                     break;
             }
+
 
             int reservedVolume = facility.AvailableFuels[fuel];
 
@@ -119,10 +120,10 @@ namespace petrolstation
             }
             return pourVolume;
         }
-        enum PourType
+        public enum PourType
         {
-            DefaultPour = '1',
-            SpecialPour = '2'
+            DefaultPour = 1,
+            SpecialPour = 2
         }
     }
 }

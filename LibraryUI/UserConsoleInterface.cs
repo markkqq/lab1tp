@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using static petrolstation.Station;
 
 namespace petrolstation
 {
@@ -36,6 +37,7 @@ namespace petrolstation
         {
             Console.WriteLine("Выберите тип покупки топлива: 1 - Ввести свое число литров 2 - Заправить полный бак");
             string s = (Console.ReadLine());
+            return Enum.Parse(typeof(PourType), s);
             Console.WriteLine();
             return s[0];
         }
