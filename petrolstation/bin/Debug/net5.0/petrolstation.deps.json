@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "petrolstation/1.0.0": {
+        "dependencies": {
+          "LibraryUI": "1.0.0",
+          "LogicLib": "1.0.0",
+          "Repository": "1.0.0"
+        },
+        "runtime": {
+          "petrolstation.dll": {}
+        }
+      },
+      "LibraryUI/1.0.0": {
+        "dependencies": {
+          "LogicLib": "1.0.0"
+        },
+        "runtime": {
+          "LibraryUI.dll": {}
+        }
+      },
+      "LogicLib/1.0.0": {
+        "runtime": {
+          "LogicLib.dll": {}
+        }
+      },
+      "Repository/1.0.0": {
+        "dependencies": {
+          "LogicLib": "1.0.0"
+        },
+        "runtime": {
+          "Repository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "petrolstation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LibraryUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LogicLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

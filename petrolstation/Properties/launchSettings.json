@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "petrolstation": {
+      "commandName": "Project",
+      "commandLineArgs": "Fuels.txt FacilitiesAmount.txt ClientsAmount.txt"
+    }
+  }
+}
