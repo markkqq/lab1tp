@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Андрей\\Desktop\\petrolstation\\petrolstation\\petrolstation.csproj": {}
+    "C:\\Users\\DeminMS\\Desktop\\lab1tp-main\\petrolstation\\petrolstation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Андрей\\Desktop\\petrolstation\\LibraryUI\\LibraryUI.csproj": {
+    "C:\\Users\\DeminMS\\Desktop\\lab1tp-main\\LibraryUI\\LibraryUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Андрей\\Desktop\\petrolstation\\LibraryUI\\LibraryUI.csproj",
+        "projectUniqueName": "C:\\Users\\DeminMS\\Desktop\\lab1tp-main\\LibraryUI\\LibraryUI.csproj",
         "projectName": "LibraryUI",
-        "projectPath": "C:\\Users\\Андрей\\Desktop\\petrolstation\\LibraryUI\\LibraryUI.csproj",
-        "packagesPath": "C:\\Users\\Андрей\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Андрей\\Desktop\\petrolstation\\LibraryUI\\obj\\",
+        "projectPath": "C:\\Users\\DeminMS\\Desktop\\lab1tp-main\\LibraryUI\\LibraryUI.csproj",
+        "packagesPath": "C:\\Users\\DeminMS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DeminMS\\Desktop\\lab1tp-main\\LibraryUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Андрей\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DeminMS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -25,14 +27,18 @@
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://10.242.53.253:3128": {},
+          "https://10.242.53.253:3128": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Андрей\\Desktop\\petrolstation\\LogicLib\\LogicLib.csproj": {
-                "projectPath": "C:\\Users\\Андрей\\Desktop\\petrolstation\\LogicLib\\LogicLib.csproj"
+              "C:\\Users\\DeminMS\\Desktop\\lab1tp-main\\LogicLib\\LogicLib.csproj": {
+                "projectPath": "C:\\Users\\DeminMS\\Desktop\\lab1tp-main\\LogicLib\\LogicLib.csproj"
               }
             }
           }
@@ -65,20 +71,22 @@
         }
       }
     },
-    "C:\\Users\\Андрей\\Desktop\\petrolstation\\LogicLib\\LogicLib.csproj": {
+    "C:\\Users\\DeminMS\\Desktop\\lab1tp-main\\LogicLib\\LogicLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Андрей\\Desktop\\petrolstation\\LogicLib\\LogicLib.csproj",
+        "projectUniqueName": "C:\\Users\\DeminMS\\Desktop\\lab1tp-main\\LogicLib\\LogicLib.csproj",
         "projectName": "LogicLib",
-        "projectPath": "C:\\Users\\Андрей\\Desktop\\petrolstation\\LogicLib\\LogicLib.csproj",
-        "packagesPath": "C:\\Users\\Андрей\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Андрей\\Desktop\\petrolstation\\LogicLib\\obj\\",
+        "projectPath": "C:\\Users\\DeminMS\\Desktop\\lab1tp-main\\LogicLib\\LogicLib.csproj",
+        "packagesPath": "C:\\Users\\DeminMS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DeminMS\\Desktop\\lab1tp-main\\LogicLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Андрей\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DeminMS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -86,7 +94,11 @@
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://10.242.53.253:3128": {},
+          "https://10.242.53.253:3128": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -122,20 +134,22 @@
         }
       }
     },
-    "C:\\Users\\Андрей\\Desktop\\petrolstation\\petrolstation\\petrolstation.csproj": {
+    "C:\\Users\\DeminMS\\Desktop\\lab1tp-main\\petrolstation\\petrolstation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Андрей\\Desktop\\petrolstation\\petrolstation\\petrolstation.csproj",
+        "projectUniqueName": "C:\\Users\\DeminMS\\Desktop\\lab1tp-main\\petrolstation\\petrolstation.csproj",
         "projectName": "petrolstation",
-        "projectPath": "C:\\Users\\Андрей\\Desktop\\petrolstation\\petrolstation\\petrolstation.csproj",
-        "packagesPath": "C:\\Users\\Андрей\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Андрей\\Desktop\\petrolstation\\petrolstation\\obj\\",
+        "projectPath": "C:\\Users\\DeminMS\\Desktop\\lab1tp-main\\petrolstation\\petrolstation.csproj",
+        "packagesPath": "C:\\Users\\DeminMS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DeminMS\\Desktop\\lab1tp-main\\petrolstation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Андрей\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DeminMS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -143,20 +157,24 @@
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://10.242.53.253:3128": {},
+          "https://10.242.53.253:3128": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Андрей\\Desktop\\petrolstation\\LibraryUI\\LibraryUI.csproj": {
-                "projectPath": "C:\\Users\\Андрей\\Desktop\\petrolstation\\LibraryUI\\LibraryUI.csproj"
+              "C:\\Users\\DeminMS\\Desktop\\lab1tp-main\\LibraryUI\\LibraryUI.csproj": {
+                "projectPath": "C:\\Users\\DeminMS\\Desktop\\lab1tp-main\\LibraryUI\\LibraryUI.csproj"
               },
-              "C:\\Users\\Андрей\\Desktop\\petrolstation\\LogicLib\\LogicLib.csproj": {
-                "projectPath": "C:\\Users\\Андрей\\Desktop\\petrolstation\\LogicLib\\LogicLib.csproj"
+              "C:\\Users\\DeminMS\\Desktop\\lab1tp-main\\LogicLib\\LogicLib.csproj": {
+                "projectPath": "C:\\Users\\DeminMS\\Desktop\\lab1tp-main\\LogicLib\\LogicLib.csproj"
               },
-              "C:\\Users\\Андрей\\Desktop\\petrolstation\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Users\\Андрей\\Desktop\\petrolstation\\Repository\\Repository.csproj"
+              "C:\\Users\\DeminMS\\Desktop\\lab1tp-main\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\DeminMS\\Desktop\\lab1tp-main\\Repository\\Repository.csproj"
               }
             }
           }
@@ -189,20 +207,22 @@
         }
       }
     },
-    "C:\\Users\\Андрей\\Desktop\\petrolstation\\Repository\\Repository.csproj": {
+    "C:\\Users\\DeminMS\\Desktop\\lab1tp-main\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Андрей\\Desktop\\petrolstation\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\DeminMS\\Desktop\\lab1tp-main\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Users\\Андрей\\Desktop\\petrolstation\\Repository\\Repository.csproj",
-        "packagesPath": "C:\\Users\\Андрей\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Андрей\\Desktop\\petrolstation\\Repository\\obj\\",
+        "projectPath": "C:\\Users\\DeminMS\\Desktop\\lab1tp-main\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\DeminMS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DeminMS\\Desktop\\lab1tp-main\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Андрей\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DeminMS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -210,14 +230,18 @@
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://10.242.53.253:3128": {},
+          "https://10.242.53.253:3128": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Андрей\\Desktop\\petrolstation\\LogicLib\\LogicLib.csproj": {
-                "projectPath": "C:\\Users\\Андрей\\Desktop\\petrolstation\\LogicLib\\LogicLib.csproj"
+              "C:\\Users\\DeminMS\\Desktop\\lab1tp-main\\LogicLib\\LogicLib.csproj": {
+                "projectPath": "C:\\Users\\DeminMS\\Desktop\\lab1tp-main\\LogicLib\\LogicLib.csproj"
               }
             }
           }
