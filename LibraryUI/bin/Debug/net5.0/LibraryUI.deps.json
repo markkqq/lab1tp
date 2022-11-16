@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "LibraryUI/1.0.0": {
+        "dependencies": {
+          "LogicLib": "1.0.0"
+        },
+        "runtime": {
+          "LibraryUI.dll": {}
+        }
+      },
+      "LogicLib/1.0.0": {
+        "runtime": {
+          "LogicLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LibraryUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LogicLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
